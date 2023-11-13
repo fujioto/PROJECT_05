@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="modal-add-overlay">
+        <div class="modal-add">
+            <button class="close-add">
+                <img src="img/group-85-cancel.svg" alt="" class="cancel-img">
+            </button>
+            <div class="modal-add-wrapper">
+                <div class="modal-add-title">ДОБАВИТЬ СОТРУДНИКА</div>
+                <div class="modal-add-line"></div> 
+                <div class="input-add-plate">
+                    <div class="grid-add">
+                        <div class="surname-add-group">
+                            <span class="surname-add-title input-add-title">ФАМИЛИЯ</span>
+                            <input type="text" class="surname-input input-add">
+                        </div>
+                        <div class="pass-add-group">
+                            <span class="pass-input-title input-add-title">СЕРИЯ И НОМЕР ПАСПОРТА</span>
+                            <input type="text" class="pass-input input-add">
+                        </div>
+                        <div class="name-add-group">
+                            <span class="name-input-title input-add-title">ИМЯ</span>
+                            <input type="text" class="name-input input-add">
+                        </div>
+                        <div class="adress-add-group">
+                            <span class="adress-input-title input-add-title">АДРЕС ПРОЖИВАНИЯ</span>
+                            <input type="text" class="address-input input-add">
+                        </div>
+                        <div class="patron-add-group">
+                            <span class="patron-input-title input-add-title">ОТЧЕСТВО</span>
+                            <input type="text" class="patron-input input-add">
+                        </div>
+                        <button class="add-image">ДОБАВИТЬ ИЗОБРАЖЕНИЕ</button>
+                        <div class="specs-add-group">
+                            <span class="specs-input-title input-add-title">СПЕЦИАЛЬНОСТЬ</span>
+                            <input type="text" class="specs-input input-add">
+                        </div>
+                        <button class="confirm-add">ДОБАВИТЬ СОТРУДНИКА</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <h1 class="site-name">STRAUSS COFFEE</h1>
+        <div class="line"></div>
+        <div class="main-plate">
+              <div class="searchAdd">
+                <div class="search">
+                    <img class="search-icon" src="img/shape-searchsearch.svg" alt="">
+                    <input class="search-field" type="text" placeholder="Поиск по фамилии или ID">
+                </div>
+                <button class="add">Добавить сотрудника</button>
+              </div>
+              <table class="ems" cellspacing="0 ">
+                <thead>
+                    <tr>
+                        <th id="id">ID</th>
+                        <th id="name">ФИО</th>
+                        <th id="come-in">ПРИХОД</th>
+                        <th id="come-out">УХОД</th>
+                        <th id="total-time">ОБЩЕЕ ВРЕМЯ</th>
+                        <th id="info">ЛИЧНАЯ<br>ИНФОРМАЦИЯ</th>
+                        <th id="stats">СТАТИСТИКА</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+
+                </tbody>
+              </table>
+        </div>
+    </div>
+</body>
+</html>
